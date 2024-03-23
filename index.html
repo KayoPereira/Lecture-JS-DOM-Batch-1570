@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="./application.js"></script> -->
+    <style>
+      .btn {
+        color: pink;
+      }
+    </style>
+  </head>
+  <body class="bg">
+    <ul id="players">
+      <button class="btn">Deixe a tela azul</button>
+      <a href="www.google.com" class="link">Google</a>
+    </ul>
+
+    <input name="email" id="email" />
+
+    <script>
+      // const name = prompt("Qual o seu nome")
+      // const ul = document.querySelector('#players');
+      // const ul1 = document.getElementById('players');
+      // ul.innerHTML = `<li>${name}</li>`
+      // console.log(ul)
+
+      // const button = document.querySelector('.btn');
+      // button.addEventListener('click', (event) => {
+      //   const body = document.querySelector('.bg');
+      //   if (body.style.backgroundColor != "blue") {
+      //     body.style.backgroundColor = "blue"
+      //   }else{
+      //     body.style.backgroundColor = "white"
+      //   }
+      // })
+
+      const input = document.querySelector('input')
+      input.addEventListener('change', () => {
+        let email = input.value
+      })
+    </script>
+  </body>
+</html>
